@@ -24,7 +24,7 @@ for x in range(page):
             url_list.append(url1)
 
     for url in url_list:
-        print(url)
+        # print(url)
 
         html = requests.get(url)
         soup = BeautifulSoup(html.text, features="lxml")
